@@ -24,9 +24,9 @@
         </div>
       </ul>
       <p appBasicHighlight>This paragraph was styled using the newly created basichighlight directive!</p>
-      <p appBetterHighlight
-      [defaultColor]="'yellow'"
-      [highlightColor]="'red'">This paragraph was styled using the newly created betterhighlight directive!</p>
+      <p [appBetterHighlight]="'red'"
+      defaultColor="yellow"
+      >This paragraph was styled using the newly created betterhighlight directive!</p>
     </div>
   </div>
 </div>
